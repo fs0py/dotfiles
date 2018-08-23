@@ -1,0 +1,100 @@
+!-----------------!
+!   color stuff   !
+!-----------------!
+
+*foreground:        #e1c0af
+*background:        #0c1118
+*.foreground:       #e1c0af
+*.background:       #0c1118
+emacs*foreground:   #e1c0af
+emacs*background:   #0c1118
+URxvt*foreground:   #e1c0af
+XTerm*foreground:   #e1c0af
+UXTerm*foreground:  #e1c0af
+URxvt*background:   [100]#0c1118
+XTerm*background:   #0c1118
+UXTerm*background:  #0c1118
+URxvt*cursorColor:  #e1c0af
+XTerm*cursorColor:  #e1c0af
+UXTerm*cursorColor: #e1c0af
+URxvt*borderColor:  [100]#0c1118
+
+! Colors 0-15.
+*.color0: #0c1118
+*color0:  #0c1118
+*.color1: #CE2D55
+*color1:  #CE2D55
+*.color2: #E63966
+*color2:  #E63966
+*.color3: #A35C59
+*color3:  #A35C59
+*.color4: #DF4C63
+*color4:  #DF4C63
+*.color5: #F8506D
+*color5:  #F8506D
+*.color6: #F06576
+*color6:  #F06576
+*.color7: #e1c0af
+*color7:  #e1c0af
+*.color8: #9d867a
+*color8:  #9d867a
+*.color9: #CE2D55
+*color9:  #CE2D55
+*.color10: #E63966
+*color10:  #E63966
+*.color11: #A35C59
+*color11:  #A35C59
+*.color12: #DF4C63
+*color12:  #DF4C63
+*.color13: #F8506D
+*color13:  #F8506D
+*.color14: #F06576
+*color14:  #F06576
+*.color15: #e1c0af
+*color15:  #e1c0af
+
+! Black color that will not be affected by bold highlighting.
+*.color66: #0c1118
+*color66:  #0c1118
+
+! Xclock colors.
+XClock*foreground: #e1c0af
+XClock*background: #0c1118
+XClock*majorColor:  rgba:e1/c0/af/ff
+XClock*minorColor:  rgba:e1/c0/af/ff
+XClock*hourColor:   rgba:e1/c0/af/ff
+XClock*minuteColor: rgba:e1/c0/af/ff
+XClock*secondColor: rgba:e1/c0/af/ff
+
+!----------------------!
+!      font stuff      !
+!------ ---------------!
+
+!*.font     : -lucy-tewi-medium-r-normal-*-11-90-100-100-c-60-iso10646-1, \
+!                 -wuncon-siji-medium-r-normal-*-10-100-75-75-c-80-iso10646-1
+
+!*.boldFont : -lucy-tewi-bold-r-normal-*-11-80-100-100-c-60-iso10646-1, \
+!-wuncon-siji-medium-r-normal-*-10-100-75-75-c-80-iso10646-1
+
+URxvt.font: xft:terminus:size=9
+
+!----------------------------------!
+! now some urxvt and xft config    !
+!----------------------------------!
+
+URxvt.geometry:		    104x28
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.rgba: rgb
+URxvt*letterSpace:      0
+URxvt*lineSpace:        0
+URxvt*internalBorder:       24
+URxvt*externalBorder:       0
+URxvt*depth:        32
+URxvt*termName:     rxvt-256color
+URxvt*iso14755:     false
+Xft.lcdfilter: lcddefault
+URxvt*scrollBar:        false
+URxvt*scrollBar_right: false
