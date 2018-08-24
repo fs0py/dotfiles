@@ -1,6 +1,12 @@
 # dotfiles
 dotfiles of my actual void linux setup
 
+## this is how it looks
+![screenshot](https://image.ibb.co/kiTFa9/2018_08_23_122443_1440x900_scrot.png)
+
+## wallpaper:
+![wallpaper](https://image.ibb.co/jZEA8U/wallpaper_vaporwavy.jpg)
+
 ## stuff I use
 
 - window manager: `i3-gaps`
